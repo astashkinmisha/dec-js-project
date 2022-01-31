@@ -1,5 +1,5 @@
-- Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
-    Вивести кожну змінну за допомогою: console.log , alert, document.write
+// - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+//     Вивести кожну змінну за допомогою: console.log , alert, document.write
 
 let on0 = 'hello';
 let on1 = 'owu';
@@ -18,8 +18,9 @@ let on12= false;
 console.log( on0, on1, on2, on3, on4, on5, on6, on7, on8, on9, on10, on11, on12 );
 document.write(on0, on1, on2, on3, on4, on5, on6, on7, on8, on9, on10, on11, on12);
 alert(on0, on1, on2, on3, on4, on5, on6, on7, on8, on9, on10, on11, on12);
-- Переприсвоїти кожній змінній з завдання значення на довільне.
-  Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+// - Переприсвоїти кожній змінній з завдання значення на довільне.
+//   Вивести кожну змінну за допомогою: console.log , alert, document.write
 
 on0 = 1;
 on1 = 2;
@@ -40,15 +41,17 @@ document.write(on0, on1, on2, on3, on4, on5, on6, on7, on8, on9, on10, on11, on1
 alert(on0, on1, on2, on3, on4, on5, on6, on7, on8, on9, on10, on11, on12);
 
 
-- Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+// - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+
 let firstName = 'Misha';
 let middleName = 'Mykhailovych';
 let lastName = 'Astashkin';
 
 let person = firstName + lastName + middleName;
 
-- За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
-    Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+// - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+//     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+
 let name = prompt().toString()
 let surname = prompt().toString()
 let age = +prompt()
@@ -56,7 +59,7 @@ let age = +prompt()
 console.log(`congrats ${name} ${surname.toString()}, you are ${age} old`)
 
 
-- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 
 let a = 100; let b = '100'; let c = true;
 
@@ -65,8 +68,8 @@ console.log(typeof b );
 console.log(typeof c );
 
 
-- Визначити відповідний оператор в виразах що б вийшов відповідний результат.
-    В однакових виразах не використовувати однакові оператори!!!
+// - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+//     В однакових виразах не використовувати однакові оператори!!!
 
 5 > 6;
 5 = 6;
